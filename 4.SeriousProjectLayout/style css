@@ -2,3 +2,50 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+body {margin:0px;}
+.flex { display: flex;}
+.flex-d-c { flex-direction: column }
+.flex-d-r { flex-direction: row; }
+
+.header {
+ background-color: #F5F5F5;
+ height: 90px;
+}
+
+.container {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.padding-10  { padding:10px;}
+.margin-10 {margin:10px}
+.margin-b {margin-bottom: 10px;}
+
+.nav-link {
+  text-decoration: none;
+  color:#8F5E36;
+  font-size: 17px;
+  padding: 20px;
+}
+
+.nav-link:hover {
+  color:#481E05;
+  font-size: 18px;
+}
+
+.login {
+  background-color: #BDD95E;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  width:10%;
+  font-size: 17px;
+  color: #481E05
+}
+.login:hover, .img-but:hover {
+  border-color: yellow;
+  color: yellow;
+}
