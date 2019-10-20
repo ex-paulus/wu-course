@@ -1,2 +1,2 @@
 # wu-course
-HTML+CSS+JScript
+HTML+CSS+JS
